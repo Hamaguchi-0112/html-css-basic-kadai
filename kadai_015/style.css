@@ -2,11 +2,11 @@ html {
   font-size: 20px;
 }
 body{
-  font-family: "Arial", "Meiryo", "sans-serif";
+  font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
 }
 .blue {
-  color: #a0d8ef;
+  color: skyblue;
 }
 .pink {
   color: rgb(255, 192, 203);
@@ -16,8 +16,8 @@ body{
   font-size: 2rem;
   letter-spacing: 1.2em;
   text-shadow: 3px 3px 6px gray;
-  border-bottom: solid 3px;
+  border-bottom: solid 3px rgb(115, 115, 114);
 }
-#basic{
+#basic > p {
   font-weight: bold;
 }

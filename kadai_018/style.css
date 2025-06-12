@@ -2,15 +2,15 @@
   width: 800px;
   background-color: #dcc9f4;
   margin: 20px auto;
-  padding: 20px 0px;
+  justify-content: space-between;
   display: flex;
 }
 .top-child{
- background-color: #ffd9df;
  width: 20%;
- display: inline;
- margin: 0 auto;
+ background-color: #ffd9df;
  text-align: center;
+ justify-content: center;
+ display: block;
 }
 #middle {
   width: 800px;

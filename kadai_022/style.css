@@ -15,14 +15,19 @@ main{
 }
 #parent{
   display: flex;
+  justify-content: space-around;
 }
 .contents{
-  justify-content: space-between;
+  /* justify-content: space-between; */
   border: 3px solid rgb(238, 204, 204);
   flex-basis: 25%;
   padding: 10px 15px;
   margin: 20px 0;
   text-align: center;
+}
+.contents img{
+  margin: 10px 0;
+  width: 70%;
 }
 h2{
   font-size: 25px;
@@ -40,6 +45,28 @@ p:nth-child(3)::first-letter{
   color: rgb(97, 206, 249);
   font-weight: bold;
 }
+footer{
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
 a{
   font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+a:visited{
+  color: rgb(193, 234, 251);
+}
+a:hover{
+  color: rgb(245, 178, 168)
+}
+@media screen and (max-width: 768px) {
+  h2{
+    font-size: 30px;
+  }
+  p{
+    font-size: 25px;
+  }
+  #parent{
+    flex-direction:column
+  }
 }

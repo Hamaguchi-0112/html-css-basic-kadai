@@ -1,5 +1,5 @@
 let weight = 68 ;
-let heigh = 1.7;
-let bmi = weight / (heigh * heigh);
+let height = 1.7;
+let bmi = weight / (height * height);
 
 console.log (bmi);
